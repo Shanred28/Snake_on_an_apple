@@ -8,7 +8,7 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler,
     [SerializeField] private Image _joystickBackground;
     [SerializeField] private Image _stick;
 
-    public float Direction;
+    [HideInInspector] public float Direction;
     public Vector3 Value { get; private set; }
 
     public void OnDrag(PointerEventData eventData)
