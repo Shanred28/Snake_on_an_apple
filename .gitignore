@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/BuildAndroid
+/Library
+/Temp
+/.collabignore
+/.vsconfig
+/Assembly-CSharp.csproj
+/Snake on an apple.sln
+/UserSettings
